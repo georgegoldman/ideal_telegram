@@ -82,3 +82,56 @@ int main()
 //   a = sqrtf (a) * sqrtf(a);
 //   cout << a;
 //  }
+  // short counter = 2424;
+  // cout << counter << endl;
+
+  // signed positive = -3;
+  // cout << positive << endl;
+
+  // unsigned char little_counter = 0;
+  // signed char satisfaction_level = -1;
+  // cout<< little_counter << endl;
+  // cout<< satisfaction_level<<endl;
+  // float x = 1.0/4.0;
+  // int i = x;
+  // cout << i << endl;
+  // int i = 3, j, k;
+  // if (i > 0) j = 2 + i * i;
+  // if (k >= 0) k = j %i %k;
+  // cout << k << endl;
+  // int k = 1 % 2 + 4 % 2;
+  // cout << k<< endl;
+
+  // float x;
+  // cin>> x;
+  // cout<< scientific<< "x"<<endl;
+  // char x = 0x1A;
+  // cout<< static_cast<int>(x) <<endl;
+
+  // int i;
+  // cin >> i;
+  // cout << i << hex << i + i << oct << i << endl;
+  // int i = 3, j = ++ i, k = ++i;
+
+  // cin >> i;
+  // cout << k + i << j - i << i * i;
+
+  int i = 3, j = 3, k = -1;
+
+  if (i > 0) {
+    if (j <= 0) {
+      if (k < 0)
+        k++;
+      if (k <= 0)
+        k--;
+
+    if (j > 0)
+      i++;
+    }
+    if (i <= 0)
+      j++;
+    k = i + j + k;
+    cout << k << endl;
+  }
+
+}
