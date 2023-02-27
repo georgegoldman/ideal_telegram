@@ -158,21 +158,64 @@ int main()
 
   // cout<<"the largest number is "<< max <<endl;
 
-  int num1, num2, num3;
+  // int num1, num2, num3;
 
   // read in the 3 number
 
-  cin >> num1;
-  cin >> num2;
-  cin >> num3;
+  // cin >> num1;
+  // cin >> num2;
+  // cin >> num3;
 
-  int max = num1;
+  // int max = num1;
 
-  if (num2 > max)
-    max = num2;
-  if (num3 > max)
-    max = num3;
+  // if (num2 > max)
+  //   max = num2;
+  // if (num3 > max)
+  //   max = num3;
   
-  cout<< "the largest number is "<< max <<endl;
+  // cout<< "the largest number is "<< max <<endl;
+
+  // int number;
+  
+  // cin >> number;
+
+  // int max = number;
+
+  // while (number != -1) {
+  //   if (number > max )
+  //     max = number;
+  //   cin >> number;
+  // }
+  // count << "the largest number is "<< max <<endl;
+
+  //  int number;
+  //   int max = -100000;
+  //   int counter = 0;
+  //   do {
+  //       cin >> number;
+  //       if (number != -1)
+  //           counter++;
+  //       if (number > max)
+  //           max = number;
+  //   } while (number != -1);
+  //   if (counter)
+  //       cout << "The largest number is " << max << endl;
+  //   else
+  //       cout << "Are you kidding? You haven't entered any number!" << endl;
+  int number;
+  int max = -100000;
+  int counter = 0;
+  for (;;) {
+    cin >> number;
+    if (number == -1)
+      break;
+    counter++;
+    if (number > max )
+      max = number;
+  }
+  if (counter)
+    cout<< "the largest number is "<< max<< endl;
+  else
+    cout<< "Are you kidding? you haven't entered any number!"<<endl;
 
 }
