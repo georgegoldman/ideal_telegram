@@ -142,20 +142,37 @@ int main()
   // float num = 11111111000.0 ;
   // float num1 = 0.00011111111;
   // cout << num + num1 << endl;
-  int number1, number2;
+  // int number1, number2;
 
   // read two numbers 
-  cin >> number1;
-  cin >> number2;
+  // cin >> number1;
+  // cin >> number2;
   // we willsave the lagest nunmber here
   // we will assume the former number is the largest
   // we will check it soon
-  int max = number1;
+  // int max = number1;
 
   // we will check if the assumption was false
-  if (number2 > max)
-    max = number2;
+  // if (number2 > max)
+  //   max = number2;
 
-  cout<<"the largest number is "<< max <<endl;
+  // cout<<"the largest number is "<< max <<endl;
+
+  int num1, num2, num3;
+
+  // read in the 3 number
+
+  cin >> num1;
+  cin >> num2;
+  cin >> num3;
+
+  int max = num1;
+
+  if (num2 > max)
+    max = num2;
+  if (num3 > max)
+    max = num3;
+  
+  cout<< "the largest number is "<< max <<endl;
 
 }
