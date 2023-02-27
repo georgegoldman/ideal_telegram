@@ -116,22 +116,46 @@ int main()
   // cin >> i;
   // cout << k + i << j - i << i * i;
 
-  int i = 3, j = 3, k = -1;
+  // int i = 3, j = 3, k = -1;
 
-  if (i > 0) {
-    if (j <= 0) {
-      if (k < 0)
-        k++;
-      if (k <= 0)
-        k--;
+  // if (i > 0) {
+  //   if (j <= 0) {
+  //     if (k < 0)
+  //       k++;
+  //     if (k <= 0)
+  //       k--;
 
-    if (j > 0)
-      i++;
-    }
-    if (i <= 0)
-      j++;
-    k = i + j + k;
-    cout << k << endl;
-  }
+  //   if (j > 0)
+  //     i++;
+  //   }
+  //   if (i <= 0)
+  //     j++;
+  //   k = i + j + k;
+  //   cout << k << endl;
+  // }
+
+
+  // unsigned char little_counter = 0;
+  // signed char satisfication_level = -1;
+  // cout<< static_cast<char>(little_counter) << endl;
+  // cout<< static_cast<int>(satisfication_level) << endl;
+  // float num = 11111111000.0 ;
+  // float num1 = 0.00011111111;
+  // cout << num + num1 << endl;
+  int number1, number2;
+
+  // read two numbers 
+  cin >> number1;
+  cin >> number2;
+  // we willsave the lagest nunmber here
+  // we will assume the former number is the largest
+  // we will check it soon
+  int max = number1;
+
+  // we will check if the assumption was false
+  if (number2 > max)
+    max = number2;
+
+  cout<<"the largest number is "<< max <<endl;
 
 }
