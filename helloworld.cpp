@@ -202,20 +202,24 @@ int main()
   //       cout << "The largest number is " << max << endl;
   //   else
   //       cout << "Are you kidding? You haven't entered any number!" << endl;
-  int number;
-  int max = -100000;
-  int counter = 0;
-  for (;;) {
-    cin >> number;
-    if (number == -1)
-      break;
-    counter++;
-    if (number > max )
-      max = number;
-  }
-  if (counter)
-    cout<< "the largest number is "<< max<< endl;
-  else
-    cout<< "Are you kidding? you haven't entered any number!"<<endl;
+  // int number;
+  // int max = -100000;
+  // int counter = 0;
+  // for (;;) {
+  //   cin >> number;
+  //   if (number == -1)
+  //     break;
+  //   counter++;
+  //   if (number > max )
+  //     max = number;
+  // }
+  // if (counter)
+  //   cout<< "the largest number is "<< max<< endl;
+  // else
+  //   cout<< "Are you kidding? you haven't entered any number!"<<endl;
+
+  bool i = false;
+  bool j = !!i;
+  cout<< j << endl;
 
 }
